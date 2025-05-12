@@ -1,12 +1,37 @@
-# React + Vite
+# Meme Generator 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ENGLISH 🇬🇧
 
-Currently, two official plugins are available:
+This is a new React + Vite project I’m building as part of my learning journey.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app will allow users to generate fun memes by combining random meme images with custom top and bottom text. The project helps me practice React fundamentals like state, events, props, and working with external APIs.
 
-## Expanding the ESLint configuration
+✅ Built with:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JSX
+- useState, useEffect
+- CSS Modules or plain CSS
+
+> I will update this file as the project evolves.  
+> Stay tuned for features like API integration, download button, and styling improvements.
+
+---
+
+## УКРАЇНСЬКА 🇺🇦
+
+Це новий проєкт на React + Vite, який я створюю як частину свого навчання.
+
+Застосунок дозволяє генерувати веселі меми, поєднуючи випадкові картинки з текстом зверху та знизу. Проєкт допомагає мені практикувати основи React: стани, події, пропси та роботу з API.
+
+✅ Використано:
+
+- React
+- Vite
+- JSX
+- useState, useEffect
+- CSS Modules або звичайний CSS
+
+> Я буду оновлювати цей файл у міру розвитку проєкту.  
+> Очікуються нові фічі: інтеграція з API, кнопка завантаження, покращення дизайну.
