@@ -2,17 +2,17 @@ import React from "react";
 
 export default function Main() {
   const [meme, setMeme] = React.useState({
-    topText: "Something different",
+    topText: "One does not simply",
     bottomText: "Walk into Mordor",
     imageUrl: "http://i.imgflip.com/1bij.jpg",
   });
 
   function handleChange(event) {
-    const { value } = event.currentTarget;
+    const { value, name } = event.currentTarget;
     console.log(value);
     setMeme((prevMeme) => ({
       ...prevMeme,
-      topText: value,
+      [name]: value,
     }));
   }
 
@@ -32,7 +32,13 @@ export default function Main() {
 
         <label>
           Bottom Text
-          <input type="text" placeholder="Walk into Mordor" name="bottomText" />
+          <input
+            type="text"
+            placeholder="Walk into Mordor"
+            name="bottomText"
+            onChange={handleChange}
+            value={meme.bottomText}
+          />
         </label>
         <button>Get a new meme image 🖼</button>
       </div>
