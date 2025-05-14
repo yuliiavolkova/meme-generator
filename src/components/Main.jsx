@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Main() {
   const [meme, setMeme] = React.useState({
-    topText: "One does not simply",
+    topText: "Something different",
     bottomText: "Walk into Mordor",
     imageUrl: "http://i.imgflip.com/1bij.jpg",
   });
@@ -26,6 +26,7 @@ export default function Main() {
             placeholder="One does not simply"
             name="topText"
             onChange={handleChange}
+            value={meme.topText}
           />
         </label>
 
